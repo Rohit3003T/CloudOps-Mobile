@@ -1,0 +1,80 @@
+# ==================================================
+# ANDROID
+# ==================================================
+
+# Gradle cache
+android/.gradle/
+.gradle/
+
+# Build folders
+android/build/
+android/app/build/
+**/build/
+
+# Local config (contains SDK path)
+android/local.properties
+
+# Android Studio
+android/.idea/
+.idea/
+*.iml
+
+# Crash dumps
+*.hprof
+java_pid*.hprof
+
+# Generated APK/AAB
+*.apk
+*.aab
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Keystore files (SECRET)
+*.jks
+*.keystore
+*.pem
+
+# ==================================================
+# NODE BACKEND
+# ==================================================
+
+# Node dependencies
+backend/node_modules/
+node_modules/
+
+# Environment variables (SECRET)
+backend/.env
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Build output
+backend/dist/
+backend/build/
+dist/
+build/
+
+# Coverage
+coverage/
+
+# ==================================================
+# COMMON
+# ==================================================
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary
+*.tmp
+*.swp
