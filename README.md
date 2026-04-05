@@ -25,7 +25,7 @@ Cloud Monitor helps users:
 CloudMonitor/
 │
 ├── backend/        → Node.js + Express AWS API
-├── android-app/    → Kotlin Jetpack Compose Android App
+├── Frontend/    → Kotlin Jetpack Compose Android App
 └── README.md
 ```
 
